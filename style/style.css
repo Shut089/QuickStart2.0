@@ -1,0 +1,12 @@
+body {
+    font-family: 'Open Sans', sans-serif;  
+}
+.bg {
+    background-image: url(../img/first-screen.png);
+}
+h1 {
+    color: #fff;
+}
+h1 + p {
+    color: #fff;
+}

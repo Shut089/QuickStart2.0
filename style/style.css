@@ -1,12 +1,53 @@
 body {
-    font-family: 'Open Sans', sans-serif;  
+    font-family: 'Oswald', sans-serif;  
+    font-size: 16px;
 }
 .bg {
     background-image: url(../img/first-screen.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    padding: 300px 0;
 }
+.wrapper {
+    max-width: 1110px;
+    margin: 0 auto;
+    
+
+}
+.wrapper-grey {
+    background-color: #F7F7F7;
+}
+
 h1 {
     color: #fff;
+    text-transform: uppercase;
+    font-size: 64px;
+    margin: 0 auto;
+    max-width: 1000px;
 }
 h1 + p {
     color: #fff;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+.stat-item h2{
+    color: #F7654A;
+    font-size: 72px;
+}
+.stat-item h3 {
+    color: #000000;
+    font-size: 36px;
+}
+.stat-item p {
+    color: #999999;
+    font-size: 18px;
+}
+.stat {
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    margin: -200px auto 0;
+    max-width: 900px;
 }

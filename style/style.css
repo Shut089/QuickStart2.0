@@ -1,5 +1,5 @@
 body {
-    font-family: 'Oswald', sans-serif;  
+    font-family: 'Oswald';  
     font-size: 16px;
 }
 .bg {
@@ -106,7 +106,7 @@ h2 {
 }
 .box-contact h3 {
     font-size: 48px;
-    letter-spacing: 0.02em;margin-bottom: 17px;
+    letter-spacing: 0.02em;margin-bottom: 17px;margin-top: 47px;
 }
 .box-contact p {
     font-size: 24px;
@@ -133,6 +133,7 @@ h2 {
     height: 14px;
     margin-left: 30px;
     margin-right: 16px;
+
 
 }
 .grid-item {
@@ -161,6 +162,7 @@ h2 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     margin-top: 145px;
+    margin-bottom: 127px;
 }
 .grid-photo-item {
     height: 100%;
@@ -184,3 +186,93 @@ h2 {
     width: 100%;
     height: 100%;
 }
+.feedback {
+    color: #999999;
+    line-height: 21px;
+    font-size: 14px;
+    font-family: 'Open Sans';
+    background-color: #F7F7F7;
+    padding: 30px 27px;
+}
+.box-feedback > div {
+    box-sizing: content-box;
+    flex-basis: 32%;
+    max-width: 32%;
+}
+.feedback::before {
+    content: '';
+    background-image: url(../img/bq.svg);
+    background-repeat: no-repeat;
+    display: block;
+    width: 34px;
+    height: 28px;/* margin-top: 0px; */margin-bottom: 26px;
+}
+.name {
+    background-color: #fff;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 31px;
+    letter-spacing: 0.02em;
+}
+
+.box-feedback {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;margin-top: 72px;
+
+}
+/* .footer-mail p{
+    color: #F7654A; */
+
+.footer-contact h3 {
+    color: #999999;
+    font-size: 24px;
+    line-height: 36px;
+
+}
+.footer-contact p {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+}
+.footer-contact {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    text-align: center;
+    margin-top: 60px;
+}
+.footer-contact>div {
+    flex-basis: 24%;
+    max-width: 24%;
+}
+.footer-contact-info {
+    list-style-type: none;
+    padding-left: 0;
+}
+.footer-contact-info li {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+}
+.red {
+    color: #F7654A;
+}
+.footer {
+    background-color: #404149;margin-top: 156px;
+}
+.box-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Open Sans';
+    font-size: 16px;
+    line-height: 22px;
+    color: #fff;
+    padding: 30px 0px;
+}
+.box-footer a {
+    text-decoration: none;
+}
+
+
